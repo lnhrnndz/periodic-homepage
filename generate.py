@@ -19,6 +19,7 @@ cssTemplateFile.close()
 entryTemplateFile.close()
 blankTemplateFile.close()
 
+width = 0
 index = 1
 count = 1
 
@@ -28,6 +29,8 @@ with open('content.csv', 'r') as file:
     content = csv.reader(file)
     for entry in content:
         if len(entry) == 0:
+            if width == 0:
+                width = count - 1
             continue
         elif entry[0] == 'blank':
             htmlTemplate = htmlTemplate.format(entry=blankTemplate, styles='{styles}')
@@ -44,7 +47,6 @@ with open('content.csv', 'r') as file:
 
 
 # Setting the correct values in the css
-width = round(count / 5)
 formWidth = 152 * width + 19 * (width - 1)
 
 cssTemplate = cssTemplate.replace('$width$', ('auto ' * width)[:-1])
