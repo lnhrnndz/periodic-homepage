@@ -57,6 +57,6 @@ cssTemplate = cssTemplate.replace('$inputWidth$', str(formWidth - 56) + 'px')
 # Cleaning the html template
 htmlTemplate = htmlTemplate.format(entry='', styles=cssTemplate)
 
-htmlFile	= open('home.html', 'w')
+htmlFile	= open('index.html', 'w')
 htmlFile.write(htmlTemplate)
 htmlFile.close()
