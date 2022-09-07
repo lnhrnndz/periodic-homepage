@@ -1,29 +1,17 @@
-zermelo,		example.com
-teams,			teams.microsoft.com
-github,			www.github.com
-spotify,		www.spotify.com/nl
-steam,			store.steampowered.com
+github,        www.github.com,       dev
+blank,         blank,
+blank,         blank,
+blank,         blank,
+archlinux,     wiki.archlinux.org,   dev
 
-magister,		example.com
-gmail,			mail.google.com
-fish,			fishshell.com
-youtube,		www.youtube.com
-protondb,		www.protondb.com
+gmail,         mail.google.com,      personal
+drive,         drive.google.com,     personal
+calendar,      calendar.google.com,  personal
+discord,       www.discord.com,      social
+whatsapp,      web.whatsapp.com,     social
 
-doultremont,	sgdelangstraat.sharepoint.com/sites/portaaldoultremontcollege
-discord,		www.discord.com
-hyprland,		wiki.hyprland.org
-eww,			elkowar.github.io/eww
-gog,			www.gog.com
-
-onedrive,		onedrive.live.com
-reddit,			www.reddit.com
-archlinux,		wiki.archlinux.org
-disney+,		www.disneyplus.com/en-nl
-blank,blank
-
-blank,blank
-whatsapp,		web.whatsapp.com
-blank,blank
-netflix,		www.netflix.com/nl-en
-blank,blank
+reddit,        www.reddit.com,       entertainment
+twitch,        www.twitch.tv,        entertainment
+youtube,       www.youtube.com,      entertainment
+netflix,       www.netflix.com,      entertainment
+wolframα,  www.wolframalpha.com,
