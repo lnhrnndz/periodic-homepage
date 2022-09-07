@@ -1,13 +1,15 @@
 
 			:root {
-				--fg: 	#E4F5F5;
-				--bg: 	#111516;
+				--fg:		#ebdbb2;
+				--bg:		#111516;
 
-                --dev:              #00FF00;
-                --uni:              #3333FF;
-                --personal:         #0000FF;
-                --social:           #FF0000;
-                --entertainment:    #FF00FF;
+				--red:		#cc241d;
+				--green:	#98971a;
+				--yellow:	#d79921;
+				--blue:		#458588;
+				--purple:	#b16286;
+				--aqua:		#689d6a;
+				--grey:		#a89984;
 			}
 
 			* {
@@ -56,40 +58,40 @@
 				background-color: 	var(--fg);
 			}
 
-            .cell.dev {
-                border:             5px solid var(--dev);
-            }
-            .cell.dev:hover {
-                background-color:   var(--dev);
-            }
+			.cell.dev {
+				border:			 5px solid var(--green);
+			}
+			.cell.dev:hover {
+				background-color:   var(--green);
+			}
 
-            .cell.uni {
-                border:             5px solid var(--uni);
-            }
-            .cell.uni:hover {
-                background-color:   var(--uni);
-            }
+			.cell.uni {
+				border:			 5px solid var(--blue);
+			}
+			.cell.uni:hover {
+				background-color:   var(--blue);
+			}
 
-            .cell.personal {
-                border:             5px solid var(--personal);
-            }
-            .cell.personal:hover {
-                background-color:   var(--personal);
-            }
+			.cell.personal {
+				border:			 5px solid var(--purple);
+			}
+			.cell.personal:hover {
+				background-color:   var(--purple);
+			}
 
-            .cell.social {
-                border:             5px solid var(--social);
-            }
-            .cell.social:hover {
-                background-color:   var(--social);
-            }
+			.cell.social {
+				border:			 5px solid var(--yellow);
+			}
+			.cell.social:hover {
+				background-color:   var(--yellow);
+			}
 
-            .cell.entertainment {
-                border:             5px solid var(--entertainment);
-            }
-            .cell.entertainment:hover {
-                background-color:   var(--entertainment);
-            }
+			.cell.entertainment {
+				border:			 5px solid var(--red);
+			}
+			.cell.entertainment:hover {
+				background-color:   var(--red);
+			}
 
 
 			.cell:hover * {
