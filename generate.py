@@ -36,11 +36,12 @@ with open('content.csv', 'r') as file:
             htmlTemplate = htmlTemplate.format(entry=blankTemplate, styles='{styles}')
         else:
             htmlTemplate = htmlTemplate.format(entry=entryTemplate.format(
-            url		= 'https://' + entry[1].lstrip(),
-            index	= index,
-            short	= entry[0][0:2].title(),
-            name	= entry[0].title(),
-            entry 	= '{entry}'
+            url		  = 'https://' + entry[1].lstrip(),
+            category  = entry[2].lstrip(),
+            index	  = index,
+            short	  = entry[0][0:2].title(),
+            name	  = entry[0].title(),
+            entry 	  = '{entry}'
             )[:-1], styles = '{styles}')
             index += 1
         count += 1

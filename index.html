@@ -5,6 +5,12 @@
 			:root {
 				--fg: 	#E4F5F5;
 				--bg: 	#111516;
+
+                --dev:              #00FF00;
+                --uni:              #3333FF;
+                --personal:         #0000FF;
+                --social:           #FF0000;
+                --entertainment:    #FF00FF;
 			}
 
 			* {
@@ -48,11 +54,45 @@
 				transition: 		0.3s;
 				text-decoration: 	none;
 			}
-
-
 			.cell:hover {
 				background-color: 	var(--fg);
 			}
+
+            .cell.dev {
+                border:             3px solid var(--dev);
+            }
+            .cell.dev:hover {
+                background-color:   var(--dev);
+            }
+
+            .cell.uni {
+                border:             3px solid var(--uni);
+            }
+            .cell.uni:hover {
+                background-color:   var(--uni);
+            }
+
+            .cell.personal {
+                border:             3px solid var(--personal);
+            }
+            .cell.personal:hover {
+                background-color:   var(--personal);
+            }
+
+            .cell.social {
+                border:             3px solid var(--social);
+            }
+            .cell.social:hover {
+                background-color:   var(--social);
+            }
+
+            .cell.entertainment {
+                border:             3px solid var(--entertainment);
+            }
+            .cell.entertainment:hover {
+                background-color:   var(--entertainment);
+            }
+
 
 			.cell:hover * {
 				color: 	var(--bg);
@@ -117,7 +157,7 @@
 				<div>
 				</div>
 				<div class="content">
-					<a class="cell" href="https://www.github.com">
+					<a class="cell dev" href="https://www.github.com">
 						<h1>1</h1>
 						<h2>Gi</h2>
 						<h3>Github</h3>
@@ -128,57 +168,57 @@
 					</a>
 					<a class="blank">
 					</a>
-					<a class="cell" href="https://wiki.archlinux.org">
+					<a class="cell dev" href="https://wiki.archlinux.org">
 						<h1>2</h1>
 						<h2>Ar</h2>
 						<h3>Archlinux</h3>
 					</a>
-					<a class="cell" href="https://mail.google.com">
+					<a class="cell personal" href="https://mail.google.com">
 						<h1>3</h1>
 						<h2>Gm</h2>
 						<h3>Gmail</h3>
 					</a>
-					<a class="cell" href="https://drive.google.com">
+					<a class="cell personal" href="https://drive.google.com">
 						<h1>4</h1>
 						<h2>Dr</h2>
 						<h3>Drive</h3>
 					</a>
-					<a class="cell" href="https://calendar.google.com">
+					<a class="cell personal" href="https://calendar.google.com">
 						<h1>5</h1>
 						<h2>Ca</h2>
 						<h3>Calendar</h3>
 					</a>
-					<a class="cell" href="https://www.discord.com">
+					<a class="cell social" href="https://www.discord.com">
 						<h1>6</h1>
 						<h2>Di</h2>
 						<h3>Discord</h3>
 					</a>
-					<a class="cell" href="https://web.whatsapp.com">
+					<a class="cell social" href="https://web.whatsapp.com">
 						<h1>7</h1>
 						<h2>Wh</h2>
 						<h3>Whatsapp</h3>
 					</a>
-					<a class="cell" href="https://www.reddit.com">
+					<a class="cell entertainment" href="https://www.reddit.com">
 						<h1>8</h1>
 						<h2>Re</h2>
 						<h3>Reddit</h3>
 					</a>
-					<a class="cell" href="https://www.twitch.tv">
+					<a class="cell entertainment" href="https://www.twitch.tv">
 						<h1>9</h1>
 						<h2>Tw</h2>
 						<h3>Twitch</h3>
 					</a>
-					<a class="cell" href="https://www.youtube.com">
+					<a class="cell entertainment" href="https://www.youtube.com">
 						<h1>10</h1>
 						<h2>Yo</h2>
 						<h3>Youtube</h3>
 					</a>
-					<a class="cell" href="https://www.netflix.com">
+					<a class="cell entertainment" href="https://www.netflix.com">
 						<h1>11</h1>
 						<h2>Ne</h2>
 						<h3>Netflix</h3>
 					</a>
-					<a class="cell" href="https://www.wolframalpha.com">
+					<a class="cell " href="https://www.wolframalpha.com">
 						<h1>12</h1>
 						<h2>Wo</h2>
 						<h3>Wolframα</h3>
