@@ -5,7 +5,7 @@ name: deploy homepage
 on:
   push:
     branches:
-      - main
+      - personal
 
 jobs:
   deploy:
@@ -19,6 +19,7 @@ jobs:
       
       - name: deploy github pages
         run: |
+          git checkout personal
           python generate.py
           git worktree add gh-pages
           git config user.name "Deploy from CI"
