@@ -1,17 +1,28 @@
-github,        www.github.com,       dev
-blank,         blank,
-blank,         blank,
-blank,         blank,
-archlinux,     wiki.archlinux.org,   dev
+github,        www.github.com,                dev
+blank,,
+blank,,
+blank,,
+blank,,
+blank,,
+archlinux,     wiki.archlinux.org,            dev
 
-gmail,         mail.google.com,      personal
-drive,         drive.google.com,     personal
-calendar,      calendar.google.com,  personal
-discord,       www.discord.com,      social
-whatsapp,      web.whatsapp.com,     social
+discord,       discord.com/channels/@me,      social
+whatsapp,      web.whatsapp.com,              social
+blank,,
+blank,,
+gmail,         mail.google.com,               personal
+drive,         drive.google.com,              personal
+calendar,      calendar.google.com,           personal
 
-reddit,        www.reddit.com,       entertainment
-twitch,        www.twitch.tv,        entertainment
-youtube,       www.youtube.com,      entertainment
-netflix,       www.netflix.com,      entertainment
+reddit,        www.reddit.com,                entertainment
+twitch,        www.twitch.tv,                 entertainment
+youtube,       www.youtube.com,               entertainment
+netflix,       www.netflix.com,               entertainment
 wolframα,      www.wolframalpha.com,
+wikipedia,     www.wikipedia.org,
+,,
+
+ethz,          ethz.ch,                       uni
+mail,          mail.ethz.ch,                  uni
+wiki,, uni
+moodle,, uni
