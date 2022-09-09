@@ -1,5 +1,8 @@
 # HomePage
 
+[![deploy homepage](https://github.com/lnhrnndz/homepage/actions/workflows/deploy.yml/badge.svg)](https://github.com/lnhrnndz/homepage/actions/workflows/deploy.yml)
+[![pages-build-deployment](https://github.com/lnhrnndz/homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/lnhrnndz/homepage/actions/workflows/pages/pages-build-deployment)
+
 ![Screenshot of HomePage](screenshot.png "Screenshot of HomePage")
 
 This is my personal homepage and the generator for it.
