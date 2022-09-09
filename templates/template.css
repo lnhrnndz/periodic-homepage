@@ -58,41 +58,7 @@
 				background-color: 	var(--fg);
 			}
 
-			.cell.dev {
-				border:			 5px solid var(--green);
-			}
-			.cell.dev:hover {
-				background-color:   var(--green);
-			}
-
-			.cell.uni {
-				border:			 5px solid var(--blue);
-			}
-			.cell.uni:hover {
-				background-color:   var(--blue);
-			}
-
-			.cell.personal {
-				border:			 5px solid var(--purple);
-			}
-			.cell.personal:hover {
-				background-color:   var(--purple);
-			}
-
-			.cell.social {
-				border:			 5px solid var(--yellow);
-			}
-			.cell.social:hover {
-				background-color:   var(--yellow);
-			}
-
-			.cell.entertainment {
-				border:			 5px solid var(--red);
-			}
-			.cell.entertainment:hover {
-				background-color:   var(--red);
-			}
-
+			$entry$
 
 			.cell:hover * {
 				color: 	var(--bg);

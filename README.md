@@ -1,37 +1,26 @@
-# Homepage
+# HomePage
 
 ![Screenshot of HomePage](screenshot.png "Screenshot of HomePage")
 
 This is my personal homepage and the generator for it.
-It's styled after a periodic table with [gruvbox](https://github.com/morhetz/gruvbox) theme and has some simple fade-in animations.
+It's styled after a monochrome periodic table and has some simple fade-in animations.
 
 ## Generating the home page
 
 To generate the home page you will first need to edit the `content.csv` file.
-This file is just a plain CSV file with the first entry being the name, the second being the URL and the third being the category.
+`content.csv` is a plain CSV file where each line corresponds to a cell in the periodic table.
 
-E.g.
-```
-github, www.github.com, dev
-gmail, www.gmail.com, personal
-...
-```
-
-For the category use one of:
-* dev
-* uni
-* personal
-* social
-* entertainment
-
-Or leave it empty to make the cell white
-
-The first empty line in content.csv will determine how many columns there will be in the periodic table
-based on how many lines preceded it.
+Each line has three values:
+* name
+* URL
+* category
 
 All the URLs will be prepended with `https://` before being inserted into the template.
+You can also use a blank entry with the name of `blank`, this will create a invisible chunk to act as spacing.
+Leave the category value empty for default white color.
 
-You can also use a blank entry with the name `blank`, this will create a invisible chunk to act as spacing.
+If you would like for your categories to have different colors then you can edit `categories.csv`
+where the first value is the name of the category and the second the hex color.
 
-After you edit `content.csv` you just need to run the python script which will generate a `index.html` file.
-Then you can just set the `index.html` file as your home page and you're good to go.
+After you edit `content.csv` and `categories.csv` you just need to run the python script which will generate `home.html`.
+Then you can just set the `home.html` file as your home page and you're good to go.
