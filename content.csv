@@ -1,28 +1,28 @@
 github,        www.github.com,                dev
-blank,,
-blank,,
-blank,,
+stack,         stackoverflow.com,             dev
 blank,,
 blank,,
 archlinux,     wiki.archlinux.org,            dev
+fish,          fishshell.com,                 dev
 
-discord,       discord.com/channels/@me,      social
-whatsapp,      web.whatsapp.com,              social
-blank,,
-blank,,
 gmail,         mail.google.com,               personal
 drive,         drive.google.com,              personal
 calendar,      calendar.google.com,           personal
+blank,,
+discord,       discord.com/channels/@me,      social
+whatsapp,      web.whatsapp.com,              social
+
+ethz,          ethz.ch,                       uni
+mail,          mail.ethz.ch,                  uni
+notes,, uni
+moodle,, uni
+wolframα,      www.wolframalpha.com,
+wikipedia,     www.wikipedia.org,
 
 reddit,        www.reddit.com,                entertainment
 twitch,        www.twitch.tv,                 entertainment
 youtube,       www.youtube.com,               entertainment
 netflix,       www.netflix.com,               entertainment
-wolframα,      www.wolframalpha.com,
-wikipedia,     www.wikipedia.org,
-,,
+blank,,
+blank,,
 
-ethz,          ethz.ch,                       uni
-mail,          mail.ethz.ch,                  uni
-wiki,, uni
-moodle,, uni
