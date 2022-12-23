@@ -8,6 +8,7 @@
 				all: 		none;
 				color: 		var(--fg);
 				text-align: center;
+				font-family: ubuntu;
 			}
 
 			body {
