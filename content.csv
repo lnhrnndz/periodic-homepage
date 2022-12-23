@@ -5,23 +5,25 @@ blank,,
 archlinux,     wiki.archlinux.org,                    dev
 fish,          fishshell.com,                         dev
 
+calendar,      calendar.google.com,                   personal
 gmail,         mail.google.com,                       personal
 drive,         drive.google.com,                      personal
-calendar,      calendar.google.com,                   personal
 blank,,
 discord,       discord.com/channels/@me,              social
 whatsapp,      web.whatsapp.com,                      social
 
 mystudies,     www.lehrbetrieb.ethz.ch/myStudies,     uni
 mail,          mail.ethz.ch,                          uni
-gitlab,        gitlab.inf.ethz.ch,                    uni
 polybox,       polybox.ethz.ch,                       uni
-wolframα,      www.wolframalpha.com,
+
+chatgpt,       chat.openai.com/chat,
 wikipedia,     www.wikipedia.org,
+wolframα,      www.wolframalpha.com,
+
+gitlab,        gitlab.inf.ethz.ch,                    uni
+codeexpert,    expert.ethz.ch,                        uni
+vis,           exams.vis.ethz.ch,                     uni
 
 reddit,        www.reddit.com,                        entertainment
 twitch,        www.twitch.tv,                         entertainment
 youtube,       www.youtube.com,                       entertainment
-netflix,       www.netflix.com,                       entertainment
-chatgpt,       chat.openai.com/chat,
-blank,,
